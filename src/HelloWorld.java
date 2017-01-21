@@ -12,7 +12,6 @@ import java.io.PrintWriter;
  */
 public class HelloWorld extends HttpServlet
 {
-
     private String message;
 
     public void init() throws ServletException
