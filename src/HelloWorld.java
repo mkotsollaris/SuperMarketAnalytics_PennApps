@@ -1,13 +1,16 @@
-import java.io.*;
-import javax.servlet.*;
-import javax.servlet.http.*;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.PrintWriter;
 
 /**
  * Created by Menelaos Kotsollaris on 2017-01-20.
  *
  * Class Explanation: TODO
  */
-public class MainClass extends HttpServlet
+public class HelloWorld extends HttpServlet
 {
 
     private String message;
